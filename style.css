@@ -1,0 +1,25 @@
+body {
+  font-family: 'Poppins';
+  text-align: center;
+}
+.input {
+  height: 30px;
+  width: 300px;
+  padding: 10px;
+  font-size: x-large;
+  border: 1.5px solid black;
+  border-radius: 5px;
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+.result {
+  font-size: xx-large;
+}
+.total-display {
+  background-color: rgb(203, 203, 203);
+  margin-right: 35%;
+  margin-left: 35%;
+  font-size: large;
+  border: 3px solid rgb(215, 242, 215);
+  border-radius: 3px;
+}
