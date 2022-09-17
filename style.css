@@ -1,25 +1,72 @@
 body {
   font-family: 'Poppins';
   text-align: center;
+  background-color: rgb(159, 154, 154);
+  color: rgb(45, 45, 45);
 }
 .input {
   height: 30px;
   width: 300px;
   padding: 10px;
   font-size: x-large;
-  border: 1.5px solid black;
+  border: 5px solid black;
   border-radius: 5px;
-  margin-top: 50px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+.inputm {
+  height: 30px;
+  width: 300px;
+  padding: 10px;
+  font-size: x-large;
+  border: 5px solid black;
+  border-radius: 5px;
+  margin-top: 100px;
   margin-bottom: 100px;
 }
 .result {
   font-size: xx-large;
 }
 .total-display {
-  background-color: rgb(203, 203, 203);
+  background-color: rgb(91, 88, 88);
   margin-right: 35%;
-  margin-left: 35%;
+  margin-left: 25%;
   font-size: large;
-  border: 3px solid rgb(215, 242, 215);
   border-radius: 3px;
+  height: 200px;
+  width: 700px;
+  border: 1px solid black;
+  color: black;
+}
+.total-displaym {
+  background-color: rgb(91, 88, 88);
+  margin-right: 35%;
+  margin-left: 25%;
+  font-size: large;
+  border-radius: 3px;
+  height: 200px;
+  width: 700px;
+  border: 1px solid black;
+  color: black;
+}
+.header {
+  font-size: xx-large;
+  margin-bottom: 20px;
+}
+
+.form__row {
+  margin: 20px;
+  padding: 20px;
+}
+.form__input--type {
+  border-radius: 5px;
+  padding: 1rem 1rem;
+  width: 20%;
+  border: 5px solid black;
+}
+.form__label {
+  font-size: x-large;
+}
+.hidden {
+  display: none;
 }
