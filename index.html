@@ -10,48 +10,47 @@
       href="https://fonts.googleapis.com/css?family=Poppins"
     />
     <link rel="stylesheet" href="style.css" />
-
     <script defer src="script.js"></script>
   </head>
   <body>
     <div class="container">
       <div class="header">E-LEVY CALCULATOR</div>
       <div class="form__row">
-        <label class="form__label">Select Your Network</label><br />
-        <br />
         <select class="form__input--type">
-          <option >Select Network</option>
+          <option value="select">Select Network</option>
           <option value="vodafone">Vodafone</option>
           <option value="MTN">MTN</option>
         </select>
       </div>
-      <div class="network__voda hidden">
+    </div>
+    <div class="network__voda hidden">
       <div>
         <form action="">
           <input class="input" type="number" name="amount" id="cash" /><br />
-          
         </form>
       </div>
       <div class="total-display">
-        <b> Total Amount plus E-Levy charges:</b> <br />
-        <b class="result"></b>
+        <b> Total Amount:</b> <br />
+        <b class="result"></b><br />
+        E-Levy Fee:
+        <b class="result-elevy"></b><br />
+        Momo Fee:
+        <b class="network"></b>
       </div>
-      </div>
-
-      <div class="network__mtn hidden">
+    </div>
+    <!-- <div class="network__mtn hidden">
         <div>
           <form action="">
-            <input class="inputm" type="number" name="amount" id="cash" /><br />
+            <input class="input-m" type="number" name="amount" id="cash" /><br />
           </form>
         </div>
-        <div class="total-displaym">
-          <b> Total Amount:</b> <br />
-          <b class="result"></b>
-          <b> E-Levy charge:</b> <br />
-          <b class="elevy"></b>
-          <b> Network charges:</b> <br />
-          <b class="network"></b>
-        </div>
-    </div>
+        <div class="total-display-m">
+          <b> Total Amount:</b> <br>
+          <b class="result-m"></b>
+          E-Levy Fee: <br>
+          <b class="result-elevy-m"></b>
+           Momo Fee: <br>
+          <b class="network-m"></b>
+        </div> -->
   </body>
 </html>

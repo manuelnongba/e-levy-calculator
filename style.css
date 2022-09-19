@@ -14,7 +14,7 @@ body {
   margin-top: 100px;
   margin-bottom: 100px;
 }
-.inputm {
+.input-m {
   height: 30px;
   width: 300px;
   padding: 10px;
@@ -27,8 +27,12 @@ body {
 .result {
   font-size: xx-large;
 }
+.result-m {
+  font-size: xx-large;
+}
 .total-display {
-  background-color: rgb(91, 88, 88);
+  background-color: rgb(192, 192, 192);
+  margin: 20px;
   margin-right: 35%;
   margin-left: 25%;
   font-size: large;
@@ -38,8 +42,8 @@ body {
   border: 1px solid black;
   color: black;
 }
-.total-displaym {
-  background-color: rgb(91, 88, 88);
+.total-display-m {
+  background-color: rgb(192, 192, 192);
   margin-right: 35%;
   margin-left: 25%;
   font-size: large;
@@ -69,4 +73,16 @@ body {
 }
 .hidden {
   display: none;
+}
+.result-elevy {
+  font-size: large;
+}
+.result-elevy-m {
+  font-size: large;
+}
+.network {
+  font-size: large;
+}
+.network-m {
+  font-size: large;
 }
