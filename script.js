@@ -23,8 +23,8 @@ input.addEventListener('input', function (e) {
   if (amount > 100) {
     const elevy = amount * 0.015;
     const result = elevy + amount;
-    displayTotal.textContent = `GH¢ ${result}`;
-    resultElevy.textContent = `GH¢ ${elevy}`;
+    displayTotal.textContent = `GH¢ ${result.toFixed(1)}`;
+    resultElevy.textContent = `GH¢ ${elevy.toFixed(1)}`;
   } else {
     displayTotal.textContent = `GH¢ ${amount}`;
     resultElevy.textContent = `GH¢ ${0}`;
