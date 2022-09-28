@@ -20,11 +20,19 @@ networkFee.textContent = `GH¢ ${0}`;
 input.addEventListener('input', function (e) {
   e.preventDefault();
   const amount = Number(input.value);
+  if (inputType.value === 'MTN') {
+    if (amount > 50 && amount <= 1000) {
+      const momoCharge = amount * (0.75 / 100);
+      networkFee.textContent = `GH¢ ${momoCharge.toFixed(2)}`;
+    }
+    if (amount <= 50) networkFee.textContent = `GH¢ ${0.38}`;
+    if (amount > 1000) networkFee.textContent = `GH¢ ${7.5}`;
+  }
   if (amount > 100) {
     const elevy = amount * 0.015;
     const result = elevy + amount;
-    displayTotal.textContent = `GH¢ ${result.toFixed(1)}`;
-    resultElevy.textContent = `GH¢ ${elevy.toFixed(1)}`;
+    displayTotal.textContent = `GH¢ ${result.toFixed(2)}`;
+    resultElevy.textContent = `GH¢ ${elevy.toFixed(2)}`;
   } else {
     displayTotal.textContent = `GH¢ ${amount}`;
     resultElevy.textContent = `GH¢ ${0}`;
@@ -37,6 +45,7 @@ inputType.addEventListener('change', function (e) {
     input.value = '';
     displayTotal.textContent = `GH¢ ${0}`;
     resultElevy.textContent = `GH¢ ${0}`;
+    networkFee.textContent = `GH¢ ${0}`;
     network.classList.remove('hidden');
     // mtn.classList.add('hidden')
     inputType.style.border = '3.5px solid white';
