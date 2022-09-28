@@ -11,7 +11,6 @@ const inputType = document.querySelector('.form__input--type');
 const network = document.querySelector('.network__voda');
 // const mtn = document.querySelector('.network__mtn');
 const resultField = document.querySelector('.total-display');
-// const resultFieldM = document.querySelector('.total-display-m');
 
 displayTotal.textContent = `GH¢ ${0}`;
 resultElevy.textContent = `GH¢ ${0}`;
