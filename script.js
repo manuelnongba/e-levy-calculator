@@ -9,7 +9,6 @@ const networkFee = document.querySelector('.network');
 // const networkMTN = document.querySelector('.network-m');
 const inputType = document.querySelector('.form__input--type');
 const network = document.querySelector('.network__voda');
-// const mtn = document.querySelector('.network__mtn');
 const resultField = document.querySelector('.total-display');
 
 displayTotal.textContent = `GH¢ ${0}`;
