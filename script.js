@@ -42,7 +42,6 @@ inputType.addEventListener('change', function (e) {
     resultElevy.textContent = `GH¢ ${0}`;
     networkFee.textContent = `GH¢ ${0}`;
     network.classList.remove('hidden');
-    // mtn.classList.add('hidden')
     inputType.style.border = '3.5px solid white';
     input.style.border = '5px solid white';
     resultField.style.border = '3.5px solid white';
