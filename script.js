@@ -6,7 +6,6 @@ const displayTotal = document.querySelector('.result');
 const resultElevy = document.querySelector('.result-elevy');
 // const resultElevyMTN = document.querySelector('.result-elevy-m');
 const networkFee = document.querySelector('.network');
-// const networkMTN = document.querySelector('.network-m');
 const inputType = document.querySelector('.form__input--type');
 const network = document.querySelector('.network__voda');
 const resultField = document.querySelector('.total-display');
