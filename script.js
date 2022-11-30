@@ -54,7 +54,6 @@ inputType.addEventListener('change', function (e) {
     displayTotal.textContent = `GH¢ ${0}`;
     resultElevy.textContent = `GH¢ ${0}`;
     network.classList.remove('hidden');
-    // vodafone.classList.add('hidden');
     inputType.style.border = '3.5px solid rgb(10, 66, 110)';
     input.style.border = '3.5px solid rgb(10, 66, 110)';
     resultField.style.border = '3.5px solid rgb(10, 66, 110)';
