@@ -2,7 +2,6 @@
 const input = document.querySelector('.input');
 const inputM = document.querySelector('.input-m');
 const displayTotal = document.querySelector('.result');
-// const displayTotalMTN = document.querySelector('.result-m');
 const resultElevy = document.querySelector('.result-elevy');
 const networkFee = document.querySelector('.network');
 const inputType = document.querySelector('.form__input--type');
